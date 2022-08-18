@@ -50,15 +50,15 @@ using namespace std;
 	* while() {}
 	*/
 
-		#define mientras while
-		#define fin_mientras fin
+		#define mientras(condicion) while(##condicion){
+		#define fin_mientras        fin
 
 	/*
 	* do {} while ();
 	*/
 
-		#define repetir   do{
-		#define hasta_que }while /* Hasta que (condicion); */
+		#define repetir              do{
+		#define hasta_que(condicion) }while(##condicion); /* Hasta que (condicion); */
 
 	/*
 	* for(;;) {}
