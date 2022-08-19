@@ -130,5 +130,5 @@
 ### Salida
 
 ```c++
-    escribir << variable << .. << "texto";
+    imprimir << variable << .. << "texto";
 ```
