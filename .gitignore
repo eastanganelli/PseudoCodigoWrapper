@@ -11,4 +11,5 @@ CTestTestfile.cmake
 _deps
 
 .[Vv]s/
-.vs
+.vs/
+[Bb]uild/

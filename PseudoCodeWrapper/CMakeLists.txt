@@ -1,13 +1,7 @@
-﻿# CMakeList.txt : CMake project for PseudoCodeWrapper, include source and define
-# project specific logic here.
-#
-cmake_minimum_required (VERSION 3.8)
+cmake_minimum_required(VERSION 3.8)
 
-# Add source to this project's executable.
-add_executable (PseudoCodeWrapper "main.cpp" "PseudoCodeWrapper.hpp")
+add_library(PseudoCodeWrapper PseudoCodeWrapper.hpp)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET PseudoCodeWrapper PROPERTY CXX_STANDARD 20)
+  set_property(TARGET PseudoCodeWrapper PROPERTY LINKER_LANGUAGE C++ CXX_STANDARD 20 VERSION ${PROJECT_VERSION})
 endif()
-
-# TODO: Add tests and install targets if needed.

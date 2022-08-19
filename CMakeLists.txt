@@ -3,7 +3,9 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-project ("PseudoCodeWrapper")
+project ("PseudoCodeWrapper" VERSION 1.0.1 DESCRIPTION "PseudoCode Warpper")
 
 # Include sub-projects.
 add_subdirectory ("PseudoCodeWrapper")
+add_subdirectory ("demo")
+add_subdirectory ("test")

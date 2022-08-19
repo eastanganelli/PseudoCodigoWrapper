@@ -4,8 +4,8 @@
 * Docente: Stanganelli, Ezequiel Agusto
 * Github: github.com/eastanganelli
 */
-
-#pragma once
+#ifndef pseucodewrapper_Lib
+#define pseucodewrapper_Lib 1 // some sensible default
 
 #include <iostream>
 #include <string>
@@ -17,8 +17,9 @@ using namespace std;
 */
 
 	#define COMENTARIO // Just a Dummy comment 😊
-	#define hacer ){  /* Para, Mientras y Según */
+	#define inicio {
 	#define fin }
+	#define hacer ){  /* Para, Mientras y Según */
 
 /*
 * Logical Operators (LOP) (Operadores Lógicos)
@@ -51,6 +52,7 @@ using namespace std;
 
 		#define mientras(condicion) while(##condicion
 		#define fin_mientras        fin
+		#define siguiente           += 
 
 	/*
 	* do {} while ();
@@ -96,6 +98,8 @@ using namespace std;
 * Funciones
 */
 
+	// #define programa(fn_name) void ##fn_name()
+
 	/*#define programa(ret_value, program_name, params) \ ##rev_value ##program_name (##params) {
 	#define devuelve(ret_param) return ##ret_param;*/
 
@@ -117,3 +121,5 @@ using namespace std;
 	#define resta(x, y) (x - y)       /* RESTA X - Y */
 	#define multiplicar(x, y) (x * y) /* MULTIPLICAR X * Y */
 	#define dividir(x, y) (x / y)     /* DIVIDIR X / Y */
+
+#endif // pseucodewrapper_Lib

@@ -1,18 +1,4 @@
 # ninja log v5
-0	1077	6825676010760994	PseudoCodeWrapper/CMakeFiles/PseudoCodeWrapper.dir/main.cpp.obj	5fb2ef8706b514cf
-1078	1401	6825676013112068	PseudoCodeWrapper/PseudoCodeWrapper.exe	dcaf1e680f07e482
-1	1481	6825691072134083	PseudoCodeWrapper/CMakeFiles/PseudoCodeWrapper.dir/main.cpp.obj	56462677eae21fc2
-1482	1863	6825691075068244	PseudoCodeWrapper/PseudoCodeWrapper.exe	b6d14d904f5bc2c8
-1	1094	6825692136894811	PseudoCodeWrapper/CMakeFiles/PseudoCodeWrapper.dir/main.cpp.obj	56462677eae21fc2
-1095	1400	6825692139004331	PseudoCodeWrapper/PseudoCodeWrapper.exe	b6d14d904f5bc2c8
-0	1053	6825692809710063	PseudoCodeWrapper/CMakeFiles/PseudoCodeWrapper.dir/main.cpp.obj	56462677eae21fc2
-1053	1340	6825692811819818	PseudoCodeWrapper/PseudoCodeWrapper.exe	b6d14d904f5bc2c8
-1	884	6825692997158346	PseudoCodeWrapper/CMakeFiles/PseudoCodeWrapper.dir/main.cpp.obj	56462677eae21fc2
-884	1161	6825692999015484	PseudoCodeWrapper/PseudoCodeWrapper.exe	b6d14d904f5bc2c8
-1	923	6825696262423934	PseudoCodeWrapper/CMakeFiles/PseudoCodeWrapper.dir/main.cpp.obj	56462677eae21fc2
-924	1255	6825696265077022	PseudoCodeWrapper/PseudoCodeWrapper.exe	b6d14d904f5bc2c8
-0	13	0	clean	975f070e434b3dd4
-0	941	6825720727132684	PseudoCodeWrapper/CMakeFiles/PseudoCodeWrapper.dir/main.cpp.obj	56462677eae21fc2
-941	1283	6825720729832905	PseudoCodeWrapper/PseudoCodeWrapper.exe	b6d14d904f5bc2c8
 1	916	6825724051660560	PseudoCodeWrapper/CMakeFiles/PseudoCodeWrapper.dir/main.cpp.obj	56462677eae21fc2
 917	1209	6825724053500290	PseudoCodeWrapper/PseudoCodeWrapper.exe	b6d14d904f5bc2c8
+0	13	0	clean	975f070e434b3dd4
