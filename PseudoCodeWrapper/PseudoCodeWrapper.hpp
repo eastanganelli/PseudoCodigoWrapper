@@ -1,16 +1,16 @@
-﻿#pragma once
-
-#include <iostream>
-#include <string>
-
-using namespace std;
-
-/*
+﻿/*
 * Pseudo Codigo en Español
 * Introducción a las redes e informática
 * Docente: Stanganelli, Ezequiel Agusto
 * Github: github.com/eastanganelli
 */
+
+#pragma once
+
+#include <iostream>
+#include <string>
+
+using namespace std;
 
 /*
 * Generic redefinitions
@@ -37,11 +37,10 @@ using namespace std;
 * If Statements (Condicional)
 */
 
-	#define si         if(       /* Si (condicion) */
-	#define sino_      }else if( /* Sino (condicion) */
-	#define sino       }else{    /* Sino */
-	#define fin_si fin           /* Fin Si */
-	#define entonces   ){        /* Entonces */
+	#define si(condition)    if(##condition       /* Si (condicion) */
+	#define sino			 }else{				  /* Sino */
+	#define fin_si fin						      /* Fin Si */
+	#define entonces		 ){				      /* Entonces */
 
 /*
 * Loops (Ciclos)
@@ -50,7 +49,7 @@ using namespace std;
 	* while() {}
 	*/
 
-		#define mientras(condicion) while(##condicion){
+		#define mientras(condicion) while(##condicion
 		#define fin_mientras        fin
 
 	/*
@@ -74,14 +73,15 @@ using namespace std;
 * Warning: requiere el uso de break;
 */
 
-	#define segun switch( /* Segun (variable) hacer */
+	#define segun(var_name) switch(##var_name /* Segun (variable) hacer */
+	#define alto break;
 	#define fin_segun fin
 	
 	/*
 	* Cases (Casos)
 	*/
 
-		#define caso case
+		#define caso(case_value) case ##case_value:
 		#define de_otro_modo default:
 
 /*
@@ -93,15 +93,22 @@ using namespace std;
 	#define salto_linea std::endl /* endl = `\n` */
 
 /*
+* Funciones
+*/
+
+	/*#define programa(ret_value, program_name, params) \ ##rev_value ##program_name (##params) {
+	#define devuelve(ret_param) return ##ret_param;*/
+
+/*
 * Refinición de variables
 */
 
-	typedef int entero;
-	typedef unsigned int reales;
-	typedef double decimal;
-	typedef string texto;
-	typedef char caracter;
-	typedef bool booleano;
+	#define entero   int			/* -inf <= 0 <= +inf */
+	#define reales   unsigned int  /* 0,1,....N, N >= 0 */
+	#define decimal  double		/* 3.1416 */
+	#define caracter char			/* a, b, c, .... */
+	#define booleano bool			/* true or false (verdadero o falso) */
+	#define texto    std::string   /* "abcde..." */
 
 /*
 * Macros
@@ -110,4 +117,3 @@ using namespace std;
 	#define resta(x, y) (x - y)       /* RESTA X - Y */
 	#define multiplicar(x, y) (x * y) /* MULTIPLICAR X * Y */
 	#define dividir(x, y) (x / y)     /* DIVIDIR X / Y */
-

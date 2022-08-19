@@ -13,13 +13,13 @@
 
 ## Introduccion
 
-Pseudo Codigo Warpper es una herramienta que permite correr "pseudo código" dentro de C/C++ y poder ejecutarlo dentro de una aplicación de consola.
+Pseudo Codigo Warpper es una herramienta que permite correr "pseudo código" dentro de C++ y poder ejecutarlo dentro de una aplicación de consola.
 
-La librería se base es su gran porcentaje en la redefinición de las funciones de C/C++ con macros que permitiran simular la escritura de pseudo codigo como también pode realizar ejemplos hibridos entre pseudo codigo y C/C++.
+La librería se base es su gran porcentaje en la redefinición de las funciones de C++ con macros que permitiran simular la escritura de pseudo codigo como también pode realizar ejemplos hibridos entre pseudo codigo y C++.
 
 ## Requisitos
 - CMake
-- C/C++ Compiler
+- C++ Compiler
   - MinGW
   - Visual Studio con C++
   - Qt con C++
@@ -27,8 +27,7 @@ La librería se base es su gran porcentaje en la redefinición de las funciones 
   - Cualquier editor de código con compilador de C/C++
 
 ## Doocumentacion
-
-
+### La documentación se encuentra en [Documentacion En Español](doc_esp.md)
 
 ## Ejemplos
 
@@ -50,3 +49,6 @@ A continuación podrá observar ejemplos script de pseudo codigo que puede ejecu
 		imprimir << "hola\n";
 	fin_para
 ```
+---
+[eastanganelli](github.com/eastanganelli)<br>
+[GNU General Public License v3.0](LICENSE.md)
