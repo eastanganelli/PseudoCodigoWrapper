@@ -26,7 +26,7 @@ La librería se base es su gran porcentaje en la redefinición de las funciones 
   - CodeBlocks con MinGW
   - Cualquier editor de código con compilador de C/C++
 
-## Doocumentacion
+## Documentacion
 ### La documentación se encuentra en [Documentacion En Español](doc_esp.md)
 
 ## Ejemplos
