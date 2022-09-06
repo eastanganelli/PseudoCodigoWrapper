@@ -36,18 +36,18 @@ A continuación podrá observar ejemplos script de pseudo codigo que puede ejecu
 </p>
 
 ### Condicional_If
-```c++
+```
     si 1 < 4 y_ 3 > 2 entonces
-		imprimir << "Si";
-	sino
-		imprimir << "NO";
-	fin_si
+	imprimir << "Si";
+    sino
+	imprimir << "NO";
+    fin_si
 ```
 ### Ciclo_For
-```c++
+```
     para(entero i) = 2 hasta(i) 15 paso(i) 1 hacer
-		imprimir << "hola\n";
-	fin_para
+	imprimir << "hola\n";
+    fin_para
 ```
 ---
 [eastanganelli](github.com/eastanganelli)<br>
