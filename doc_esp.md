@@ -26,6 +26,7 @@
 
 ```
     Pseudo   C++            Ejemplo
+    ---------------------------------------------------------------
     entero   int	    /* -inf <= 0 <= +inf */
     reales   unsigned int   /* 0,1,....N, N >= 0 */
     decimal  double	    /* 3.1416 */
